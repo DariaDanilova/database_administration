@@ -2,7 +2,7 @@
 1. Create an ODM database with dictionary-managed tablespaces. Provide sample schemas.
 2. Using EM, create a dictionary-managed TSD tablespace with two files with increasing extents. When creating, use AMD technology.
 3. Display information about the types of management and characteristics of tablespaces.
-4. Move the EMPLOYEES and DEPARTMENTS tables with links between them to the TSD tablespace.
+4. Move the EMPLOYEES and DEPARTMENTS tables with relationships between them to the TSD tablespace.
 5. Convert the EXAMPLES tablespace to a locally managed tablespace.
 6. Create a locally managed TSL tablespace with a fixed file size (100 M) with the LOCATIONS table.
 7. Convert the TSL tablespace into a dictionary-managed tablespace.
