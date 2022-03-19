@@ -30,8 +30,6 @@ Adding a tablespace, we get:
 
 ![6](https://user-images.githubusercontent.com/61746700/159139310-2baeac2f-459c-46ec-955b-0c8f50bd1cd5.png)
 
-![7](https://user-images.githubusercontent.com/61746700/159139313-95518707-c5ea-42c8-85f5-1a90fa320dc3.png)
-
 Now let's add the HR schema and all its tables.
 
 ![8](https://user-images.githubusercontent.com/61746700/159139317-a64e0cbf-b828-4a25-ba01-0fa16d69021d.png)
