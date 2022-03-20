@@ -106,6 +106,7 @@ The Auto Extend column will have NO.
 ![32](https://user-images.githubusercontent.com/61746700/159139564-8b39ae91-4c43-4122-ad98-9d0df97cd43c.png)
 
 Now let's create a LOCATIONS table in this tablespace.
+
 ![33](https://user-images.githubusercontent.com/61746700/159139577-a2a180db-6a88-44cb-9c94-a8d2bdd9df66.png)
 
 7) Now let's transform the TSL tablespace into a dictionary-managed one. To do this, use DBMS_SPACE_ADMIN.TABLESPACE_MIGRATE_FROM_LOCAL.
