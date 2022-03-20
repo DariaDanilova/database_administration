@@ -1,5 +1,5 @@
 ## Task
-Clone an ORCL database using Enterprise Manager in Copy database files via staging area mode.
+Clone *ORCL* database using Enterprise Manager in *Copy database files via staging area* mode.
 Create 2 tables in the cloned database, establish a relationship between them and fill them with data.
 Create a backup copy of the cloned database.
 Restore the cloned database to the moment when the relationship between the tables has not yet been created.
@@ -28,7 +28,7 @@ Cloning can now be performed.
 
 <img width="513" alt="7" src="https://user-images.githubusercontent.com/61746700/159168068-20931dbd-313d-4152-931d-66a429719499.png">
 
-Set the name of the database clone and the instance – neworcl.
+Set the name of the database clone and the instance – *neworcl*.
 
 <img width="387" alt="8" src="https://user-images.githubusercontent.com/61746700/159168129-4c94f8ba-c3f6-4920-8eb5-64aa9b699724.png">
 
