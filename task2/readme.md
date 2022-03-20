@@ -53,7 +53,7 @@ We can output this information to SQL Plus.
 ![14](https://user-images.githubusercontent.com/61746700/159139269-4f6f2b00-6ab6-41ee-b3cd-fd587ac934f8.png)
 
 4) Move the employees and departments tables, as well as the relationships between them, to the TSD tablespace.
-Go to the Schema >Database Objects > Tables tab. First, let's look at the constraints and indexes of the employees table.
+Go to the Schema>Database Objects>Tables tab. First, let's look at the constraints and indexes of the employees table.
 
 ![15](https://user-images.githubusercontent.com/61746700/159139380-22b9c11c-d6d1-4e35-ba2a-7aefe2e53b36.png)
 
