@@ -7,7 +7,7 @@ Let's see the location of the current control files.
 
 ![1](https://user-images.githubusercontent.com/61746700/159139755-27f2dc73-62cf-4f0d-9de4-c379c7eafd4a.png)
 
-Now we need to change the CONTROL_FILES parameter in the initialization parameters file, so add the name of the third file.
+Now you need to change the CONTROL_FILES parameter in the initialization parameters file, so add the name of the third file.
 
 ![2](https://user-images.githubusercontent.com/61746700/159139761-2b836116-6757-4bea-8970-1200ac40ec33.png)
 
