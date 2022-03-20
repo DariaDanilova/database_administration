@@ -12,11 +12,11 @@ Let's create directories in the *Student4* database and the *ODMT* database.
 
 ![3](https://user-images.githubusercontent.com/61746700/159160608-82304974-e860-4e6d-b31e-b97ad3be0d55.png)
 
-In the ODMT database, we will create the *hr_test* tablespace, the *hr_test_role* role, grant this role the necessary privileges and create the *hr_test* user, assigning him the created role. And we will give this user the privilege of reading, writing to the directory created earlier.
+In the ODMT database create the *hr_test* tablespace, the *hr_test_role* role, grant this role the necessary privileges and create the *hr_test* user, assigning him the created role. And give this user the privilege of reading, writing to the directory created earlier.
 
 ![4](https://user-images.githubusercontent.com/61746700/159160671-00ff3eae-444b-4b22-9456-bd28f080e342.png)
 
-Let's create an *employees2* table in the *hr_test* schema, with the same structure as the employees table in the *hr* schema. And we'll do a TRUNCATE to clear it of data.
+Let's create an *employees2* table in the *hr_test* schema, with the same structure as the employees table in the *hr* schema. And execute TRUNCATE command to clear it of data.
 
 ![5](https://user-images.githubusercontent.com/61746700/159160711-cf563178-2279-47a1-9995-db2052170639.png)
 
@@ -24,7 +24,7 @@ Now you can create an external table in the *Student4* database, specifying the 
 
 ![6](https://user-images.githubusercontent.com/61746700/159160745-1405ab54-c620-48bc-b65f-7bb1564b14e2.png)
 
-Next, we will create an external table in the *ODMT* database.
+Next, create an external table in the *ODMT* database.
 
 ![7](https://user-images.githubusercontent.com/61746700/159160759-dacd2c56-e2fb-4666-b130-0a9de7123600.png)
 
