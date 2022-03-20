@@ -3,11 +3,11 @@ Organize an audit of the sys user, which allows you to control the execution of 
 
 ## Solution
 
-To begin with, let's look at the values of the audit_sys_operations, audit_file_dest and audit_trail parameters.
+To begin with, let's look at the values of the *audit_sys_operations*, *audit_file_dest* and *audit_trail* parameters.
 
 ![1](https://user-images.githubusercontent.com/61746700/159139931-6b961b3d-3e30-4f62-beee-438c647ce27d.png)
 
-To enable auditing for privileged users, set audit_sys_operations to TRUE, change the value of audit_trail, because in this case, the audit information must be stored outside the database (create a folder in the directory in advance), and accordingly set audit_file_dest to XML, not DB.
+To enable auditing for privileged users, set *audit_sys_operations* to TRUE, change the value of *audit_trail*, because in this case, the audit information must be stored outside the database (create a folder in the directory in advance), and accordingly set *audit_file_dest* to XML, not DB.
 
 ![2](https://user-images.githubusercontent.com/61746700/159139968-1c34c24e-5120-4488-a54e-e4ba9b28db73.png)
 
@@ -30,7 +30,7 @@ Let's connect with the sysoper privilege and execute the DDL command. This comma
 Information about the execution of this command got into the audit log.
 
 
-Now let's connect as dba1 without the sysdba privilege. The command will be executed, but there will be no information about the command in the xml file, because dba1  in this case does not have privileges of privileged users. So the result is also correct.
+Now let's connect as *dba1* without the sysdba privilege. The command will be executed, but there will be no information about the command in the xml file, because dba1 in this case does not have privileges of privileged users. So the result is also correct.
 
 ![8](https://user-images.githubusercontent.com/61746700/159140130-46324ca0-5bbb-439b-83e8-f0270f6eecd0.png)
 
