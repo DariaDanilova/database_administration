@@ -1,4 +1,5 @@
 ## Task
+Use DBNEWID to change the database name, not DBID. Write the progress to the utility's log file. Check the performance of the databases.
 
 ## Solution
 First, make a backup copy of the database.
