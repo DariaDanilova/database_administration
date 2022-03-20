@@ -37,16 +37,16 @@ Now let's add the HR schema and all its tables.
 ![9](https://user-images.githubusercontent.com/61746700/159139323-b4d2b91c-d60f-4804-b997-cf8c8d9893bb.png)
 
 2) Let's create a TSD dictionary-managed tablespace.
-When creating data files, we check the auto extensibility box and do not specify anything in the filename, OMF will create the name itself.
+When creating data files, check the auto extensibility box and do not specify anything in the filename, OMF will create the name itself.
 
 ![10](https://user-images.githubusercontent.com/61746700/159139223-c655cbac-eac0-4149-bab5-01de84320522.png)
 
-We get:![11](https://user-images.githubusercontent.com/61746700/159139205-6fdb72e9-9b1b-4732-b036-0b8665f1a148.png)
+You get:![11](https://user-images.githubusercontent.com/61746700/159139205-6fdb72e9-9b1b-4732-b036-0b8665f1a148.png)
 
 3)	Let's look at the types of management and characteristics of tablespaces.
 ![12](https://user-images.githubusercontent.com/61746700/159139253-34148ac9-6649-4dfa-b58a-815a95de1826.png)
 
-We can output this information to SQL Plus.
+You can output this information to SQL Plus.
 
 ![13](https://user-images.githubusercontent.com/61746700/159139265-74e8cb70-e1af-4be3-a8a3-f70b70276115.png)
 
@@ -64,16 +64,16 @@ Select the desired table, select Reorganize and click Go.
 
 ![17](https://user-images.githubusercontent.com/61746700/159139399-9e8a3a65-61ff-473f-989b-58f73d4f75d4.png)
 
-We get here and click on the table.
+You get here and click on the table.
 ![18](https://user-images.githubusercontent.com/61746700/159139406-08d5a3fb-4481-4e16-880f-0f26432e9b79.png)
 
 Select Relocate and enter the name TSD.
 ![19](https://user-images.githubusercontent.com/61746700/159139414-09eb5dee-e644-48d2-940e-0fa1990128a4.png)
 
-We get
+You get
 ![20](https://user-images.githubusercontent.com/61746700/159139423-5233c555-5b1c-4427-bdec-26c574189180.png)
 
-Further actions are left by default and we get the following script.
+Further actions are left by default and you get the following script.
 
 ![21](https://user-images.githubusercontent.com/61746700/159139429-afdbc1d0-0a82-4ffd-b95e-dbc2698ba47e.png)
 
